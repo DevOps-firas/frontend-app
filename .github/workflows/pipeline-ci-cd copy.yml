@@ -61,4 +61,4 @@ jobs:
           script: |
             cd /home/user/devops-script/frontend-app/dev
             sudo docker compose pull
-            sudo docker compose up -d --force-recreate --remove-orphans api
+            sudo docker compose up -d --force-recreate --remove-orphans
