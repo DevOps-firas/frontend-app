@@ -8,7 +8,7 @@ on:
 
 env:
   DDOCKER_IMAGE: ${{ vars.DOCKER_HUB_USERNAME }}/front-session13
-  VITE_API_URL: http://api.21.lebondeveloppeur.net
+  VITE_API_URL: https://api.21.lebondeveloppeur.net
   
 jobs:
   run-unit-test-job:
